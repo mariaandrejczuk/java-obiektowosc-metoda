@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         char[] red = {'r', 'e', 'd'};
@@ -16,5 +18,14 @@ public class Main {
         }
         radiators[1].weight = 119;
         radiators[1].display();
+
+        //wyświetl w kWh
+        double powerInKwh = radiators[1].powerInKwh();
+        //System.out.println("Power kWh: "+powerInKwh+"kWh");
+        if(powerInKwh >= 5){
+            System.out.println("High-power radiator.");
+        } else {
+            System.out.println("Low-power radiator.");
+        }
     }
 }
