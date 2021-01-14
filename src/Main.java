@@ -58,5 +58,12 @@ public class Main {
         System.out.println("Srednia tablicy [2,5,234,234,2,41,12,31] = "+c.avg(values));
         System.out.println("Srednia tablicy [1,1] = "+c.avg(values2));
 
+
+        //zadanie 5
+        System.out.println("-------- Zadanie 5 --------");
+
+
+
+
     }
 }
