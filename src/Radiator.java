@@ -9,7 +9,7 @@ public class Radiator {
         this.power = power;
     }
     void display(){
-        System.out.println("--------------------");
+        System.out.println("----------");
         System.out.print("Color: ");
         for(char c : color){
             System.out.print(c);
