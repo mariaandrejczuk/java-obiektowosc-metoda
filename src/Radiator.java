@@ -8,5 +8,15 @@ public class Radiator {
         this.weight = weight;
         this.power = power;
     }
+    void display(){
+        System.out.println("--------------------");
+        System.out.print("Color: ");
+        for(char c : color){
+            System.out.print(c);
+        }
+        System.out.println();
+        System.out.println("Weight: "+weight);
+        System.out.println("Power: "+power+"W");
+    }
 }
 
