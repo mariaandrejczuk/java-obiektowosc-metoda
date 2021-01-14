@@ -43,6 +43,20 @@ public class Main {
         System.out.println("100 + 54 = "+sum);
         System.out.println("100 + 54 = "+c.sum(100, 54) );
         System.out.println("5+1+5+1+5 = "+c.sum5Arguments(5,1,5,1,5) );
+        System.out.println();
+
+        //zadanie 4
+        System.out.println("-------- Zadanie 4 - Calculator-------");
+        int[] values = {2,5,234,234,2,41,23,12,31};
+        sum = c.sumArray(values);
+        System.out.println("Wynik dodawania elementów tablicy [2,5,234,234,2,41,23,12,31] = "+sum);
+
+        int[] values2 = {1,1};
+        sum = c.sumArray(values2);
+        System.out.println("Wynik dodawania elementów tablicy [1,1] = "+sum);
+
+        System.out.println("Srednia tablicy [2,5,234,234,2,41,12,31] = "+c.avg(values));
+        System.out.println("Srednia tablicy [1,1] = "+c.avg(values2));
 
     }
 }
