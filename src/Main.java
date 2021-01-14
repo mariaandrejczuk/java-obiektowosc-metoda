@@ -60,10 +60,27 @@ public class Main {
 
 
         //zadanie 5
+        System.out.println();
         System.out.println("-------- Zadanie 5 --------");
 
+        //przechowanie informacji o zbiorach:
+        char[] yellow = {'y', 'e', 'l', 'l', 'o', 'w'};
+        char[] orange = {'o', 'r', 'a', 'n', 'g', 'e'};
+        char[] black = {'b', 'l', 'a', 'c', 'k'};
+        Museum m1 = new Museum(yellow,  2.0, 1.05, 287);
+        Museum m2 = new Museum(orange,  2.3,  1.06, 290);
+        Museum m3 = new Museum(black,  2.5,  1.07, 300);
 
+        Museum[] museums = new Museum[3];
+        museums[0] = m1;
+        museums[1] = m2;
+        museums[2] = m3;
 
+        //wyświetlenie temp. w Fahrenheit:
+        museums[1].displayF();
 
+        //wyświetlenie zwiększonej gęstości:
+        double higherDensity = museums[1].higherDensity();
+        System.out.println("Zwiększona gęstość wybranego bursztynu: "+higherDensity);
     }
 }
