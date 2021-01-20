@@ -8,7 +8,7 @@ public class Radiator {
         this.weight = weight;
         this.power = power;
     }
-    void display(){
+    void display(){  //metoda
         System.out.println("----------");
         System.out.print("Color: ");
         for(char c : color){
@@ -18,7 +18,7 @@ public class Radiator {
         System.out.println("Weight: "+weight);
         System.out.println("Power: "+power+"W");
     }
-    double powerInKwh(){
+    double powerInKwh(){  //metoda
         return (double)power/1000;
     }
 }
