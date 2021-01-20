@@ -61,7 +61,8 @@ public class Main {
 
         //zadanie 6
         System.out.println("-------- Zadanie 6 --------");
-
+        Drawing drawing = new Drawing();
+        drawing.drawTab(9, '$');
 
     }
 }
