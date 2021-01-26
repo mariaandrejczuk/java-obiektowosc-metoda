@@ -55,9 +55,14 @@ public class Main {
         sum = c.sumArray(values2);
         System.out.println("Wynik dodawania elementów tablicy [1,1] = " + sum);
 
-        System.out.println("Srednia tablicy [2,5,234,234,2,41,12,31] = " + c.avg(values));
-        System.out.println("Srednia tablicy [1,1] = " + c.avg(values2));
+        System.out.println("Srednia tablicy [2,5,234,234,2,41,12,31] = "+c.avg(values));
+        System.out.println("Srednia tablicy [1,1] = "+c.avg(values2));
+        System.out.println();
 
+        //zadanie 6
+        System.out.println("-------- Zadanie 6 --------");
+        Drawing drawing = new Drawing();
+        drawing.drawTab(9, '$');
 
         //zadanie 5
         System.out.println();
